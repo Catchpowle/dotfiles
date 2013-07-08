@@ -30,4 +30,8 @@ Bundle 'vim-scripts/greplace.vim'
 Bundle 'vim-scripts/tComment'
 Bundle 'xenoterracide/html.vim'
 
+" User edits
+Bundle 'scrooloose/nerdtree'
+Bundle 'w0ng/vim-hybrid'
+
 filetype on

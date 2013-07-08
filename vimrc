@@ -69,7 +69,7 @@ if executable('ag')
 endif
 
 " Color scheme
-colorscheme github
+colorscheme hybrid
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
 
@@ -127,6 +127,9 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 " configure syntastic syntax checking to check on open as well as save
 let g:syntastic_check_on_open=1

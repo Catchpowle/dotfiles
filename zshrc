@@ -17,6 +17,8 @@ export VISUAL=vim
 export EDITOR=$VISUAL
 
 # aliases
+source "$HOME/dotfiles/zsh/aliases.zsh"
+
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
 fi
