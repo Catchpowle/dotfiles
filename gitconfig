@@ -21,3 +21,6 @@
   ff = only
 [include]
   path = .gitconfig.local
+[user]
+	name = Ad Taylor
+	email = ad@metaunion.co.uk
