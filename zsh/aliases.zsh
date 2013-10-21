@@ -19,6 +19,9 @@ alias du='du -h -d 2'
 # show me files matching "ls grep"
 alias lsg='ll | grep'
 
+# Show more details in list
+alias la='ls -la'
+
 # Alias Editing
 alias ae='vim $dotfiles/zsh/aliases.zsh' #alias edit
 alias ar='source $dotfiles/zsh/aliases.zsh'  #alias reload

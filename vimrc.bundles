@@ -33,5 +33,8 @@ Bundle 'xenoterracide/html.vim'
 " User edits
 Bundle 'scrooloose/nerdtree'
 Bundle 'w0ng/vim-hybrid'
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
+Bundle 'sophacles/vim-processing'
 
 filetype on

@@ -73,3 +73,6 @@ setopt EXTENDED_GLOB
 
 # rbenv init
 eval "$(rbenv init -)"
+
+# Postgres
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
