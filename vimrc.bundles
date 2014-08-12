@@ -36,5 +36,9 @@ Bundle 'w0ng/vim-hybrid'
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'sophacles/vim-processing'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'bling/vim-airline'
+
+Bundle 'editorconfig/editorconfig-vim'
 
 filetype on
