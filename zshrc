@@ -71,8 +71,10 @@ setopt CORRECT CORRECT_ALL
 # Enable extended globbing
 setopt EXTENDED_GLOB
 
+export TERM='xterm-256color'
+
 # rbenv init
 eval "$(rbenv init -)"
 
-# Postgres
-PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+export GITHUB_TOKEN="f6ef898e537aa5d8e8befd2fafb47c91f32cb3c9"
+
