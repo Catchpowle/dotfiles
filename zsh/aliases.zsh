@@ -83,7 +83,7 @@ alias gt='git tag'
 alias gat='git tag -a'
 alias gbg='git bisect good'
 alias gbb='git bisect bad'
-
+alias gclog='git commit -m "Updates the CHANGELOG" CHANGELOG.md'
 # Common shell functions
 alias less='less -r'
 alias tf='tail -f'
@@ -96,6 +96,7 @@ alias cl='clear'
 alias gz='tar -zcvf'
 
 # Ruby
+alias brs='bundle exec rails s'
 alias c='rails c' # Rails 3
 alias tfdl='tail -f log/development.log'
 alias tftl='tail -f log/test.log'
@@ -114,3 +115,6 @@ alias rdmr='rake db:migrate:redo'
 
 # Rspec
 alias rs='rspec spec'
+
+# Project alias - lazy
+alias rails_stb='SERVICE_ENDPOINTS=true be rails s'
