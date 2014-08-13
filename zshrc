@@ -1,3 +1,6 @@
+# Source .profile as boxen uses it
+source ~/.profile
+
 # load our own completion functions
 fpath=(~/.zsh/completion $fpath)
 
@@ -17,7 +20,7 @@ export VISUAL=vim
 export EDITOR=$VISUAL
 
 # aliases
-source "$HOME/dotfiles/zsh/aliases.zsh"
+source "$HOME/src/dotfiles/zsh/aliases.zsh"
 
 if [ -e "$HOME/.aliases" ]; then
   source "$HOME/.aliases"
